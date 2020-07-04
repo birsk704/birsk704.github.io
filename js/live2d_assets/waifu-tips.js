@@ -44,9 +44,9 @@ live2d_settings['modelRandMode']        = 'switch';     // 模型切换，可选
 live2d_settings['modelTexturesRandMode']= 'switch';       // 材质切换，可选 'rand'(随机), 'switch'(顺序)
 
 // 提示消息选项
-live2d_settings['showHitokoto']         = true;         // 显示一言
-live2d_settings['showF12Status']        = true;         // 显示加载状态
-live2d_settings['showF12Message']       = flase;        // 显示看板娘消息
+live2d_settings['showHitokoto']         = false;         // 显示一言
+live2d_settings['showF12Status']        = false;         // 显示加载状态
+live2d_settings['showF12Message']       = false;        // 显示看板娘消息
 live2d_settings['showF12OpenMsg']       = true;         // 显示控制台打开提示
 live2d_settings['showCopyMessage']      = true;         // 显示 复制内容 提示
 live2d_settings['showWelcomeMessage']   = true;         // 显示进入面页欢迎词
