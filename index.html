@@ -27,6 +27,11 @@
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
+
+    <link rel="stylesheet" type="text/css" href="/js/live2d_assets/waifu.css">
+
+
+
     <script src="/libs/jquery/jquery.min.js"></script>
 
 <meta name="generator" content="Hexo 4.2.1"><link rel="alternate" href="/atom.xml" title="Birsk" type="application/atom+xml">
@@ -592,6 +597,28 @@
 
 </main>
 
+
+
+
+    <!-- waifu-tips.js 依赖 JQuery 库 头部已经引用了-->
+ <!-- 实现拖动效果，需引入 JQuery UI --> 
+ <script src="/js/jquery-ui.min.js"></script> 
+ 
+ <div class="waifu"> <div class="waifu-tips"></div> <canvas id="live2d" class="live2d"></canvas> 
+ <div class="waifu-tool"> <span class="fui-home"></span> 
+    <span class="fui-chat"></span> 
+    <span class="fui-eye"></span> 
+    <span class="fui-user"></span> 
+    <span class="fui-photo"></span> 
+    <span class="fui-info-circle"></span> 
+    <span class="fui-cross"></span> </div> 
+</div> 
+<script src="/js/live2d_assets/waifu-tips.js"></script> 
+<script src="/js/live2d_assets/live2d.js"></script>
+ <script type="text/javascript"> live2d_settings['modelId'] = 1; 
+ live2d_settings['modelTexturesId'] = 87; 
+ var waifuTips = "/js/live2d_assets/waifu-tips.json"; 
+ initModel(waifuTips) </script>
 
 
 
